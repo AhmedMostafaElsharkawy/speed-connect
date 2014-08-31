@@ -1,0 +1,39 @@
+D:\l505gs\SpeedConnect\SpeedConnect\Bin\Debug\ApplicationIcon.png
+D:\l505gs\SpeedConnect\SpeedConnect\Bin\Debug\SpeedConnect.dll
+D:\l505gs\SpeedConnect\SpeedConnect\Bin\Debug\SpeedConnect.pdb
+D:\l505gs\SpeedConnect\SpeedConnect\Bin\Debug\SpeedConnect.xml
+D:\l505gs\SpeedConnect\SpeedConnect\Bin\Debug\AppManifest.xaml
+D:\l505gs\SpeedConnect\SpeedConnect\Bin\Debug\SpeedConnect.xap
+D:\l505gs\SpeedConnect\SpeedConnect\obj\Debug\App.g.i.vb
+D:\l505gs\SpeedConnect\SpeedConnect\obj\Debug\MainPage.g.i.vb
+D:\l505gs\SpeedConnect\SpeedConnect\obj\Debug\SpeedConnect.g.resources
+D:\l505gs\SpeedConnect\SpeedConnect\obj\Debug\SpeedConnect.dll
+D:\l505gs\SpeedConnect\SpeedConnect\obj\Debug\SpeedConnect.xml
+D:\l505gs\SpeedConnect\SpeedConnect\obj\Debug\SpeedConnect.pdb
+D:\l505gs\SpeedConnect\SpeedConnect\obj\Debug\XapCacheFile.xml
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\App.g.i.vb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\Short\browser.g.i.vb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\MainPage.g.i.vb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\Short\Air.g.i.vb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\Short\Blue.g.i.vb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\Short\Cel.g.i.vb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\Short\Contact.g.i.vb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\Short\instapaper.g.i.vb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\Short\Sms.g.i.vb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\Short\WebReader.g.i.vb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\Short\WIFI.g.i.vb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\SpeedConnect.g.resources
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\Bin\Debug\ApplicationIcon.png
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\Bin\Debug\SpeedConnect.dll
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\Bin\Debug\SpeedConnect.pdb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\Bin\Debug\SpeedConnect.xml
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\Bin\Debug\AppManifest.xaml
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\Bin\Debug\SpeedConnect.xap
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\Bin\Debug\microsoft.phone.controls.toolkit.dll
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\Bin\Debug\Microsoft.Phone.Controls.xml
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\SpeedConnect.dll
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\SpeedConnect.xml
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\SpeedConnect.pdb
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\XapCacheFile.xml
+D:\l505gs\win p 7.5 SDK\SpeedConnect\SpeedConnect\obj\Debug\SpeedConnect.vbprojResolveAssemblyReference.cache

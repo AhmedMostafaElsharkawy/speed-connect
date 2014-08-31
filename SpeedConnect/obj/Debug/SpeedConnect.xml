@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SpeedConnect
+</name>
+</assembly>
+<members>
+<member name="M:SpeedConnect.WIFI.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SpeedConnect.WebReader.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SpeedConnect.Sms.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SpeedConnect.instapaper.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SpeedConnect.Contact.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SpeedConnect.Cel.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SpeedConnect.Blue.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SpeedConnect.Air.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SpeedConnect.MainPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SpeedConnect.browser.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SpeedConnect.App.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="P:SpeedConnect.App.RootFrame">
+	<summary>
+ Provides easy access to the root frame of the Phone Application.
+ </summary>
+	<returns>The root frame of the Phone Application.</returns>
+</member><member name="M:SpeedConnect.App.#ctor">
+	<summary>
+ Constructor for the Application object.
+ </summary>
+</member>
+</members>
+</doc>

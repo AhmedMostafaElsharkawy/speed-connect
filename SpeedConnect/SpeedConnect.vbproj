@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E92DF74F-D402-4356-9368-21551E0B9206}</ProjectGuid>
+    <ProjectTypeGuids>{DB03555F-0C8B-43BE-9FF9-57896B3C5E56};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>My Project</AppDesignerFolder>
+    <RootNamespace>SpeedConnect</RootNamespace>
+    <AssemblyName>SpeedConnect</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>ar-EG</SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>SpeedConnect.xap</XapFilename>
+    <SilverlightManifestTemplate>My Project\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>SpeedConnect.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <MyType>Empty</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>Bin\Debug</OutputPath>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <DocumentationFile>SpeedConnect.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <DocumentationFile>SpeedConnect.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone.Controls, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="microsoft.phone.controls.toolkit">
+      <HintPath>..\..\buttons settings\bin\debug\microsoft.phone.controls.toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.Phone.Controls" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Net" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Animation" />
+    <Import Include="System.Windows.Navigation" />
+    <Import Include="System.Windows.Shapes" />
+    <Import Include="Microsoft.Phone.Shell" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.vb">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Short\browser.xaml.vb">
+      <DependentUpon>browser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.vb">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="Short\Air.xaml.vb">
+      <DependentUpon>Air.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Short\Blue.xaml.vb">
+      <DependentUpon>Blue.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Short\Cel.xaml.vb">
+      <DependentUpon>Cel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Short\Contact.xaml.vb">
+      <DependentUpon>Contact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Short\instapaper.xaml.vb">
+      <DependentUpon>instapaper.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Short\Sms.xaml.vb">
+      <DependentUpon>Sms.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Short\WebReader.xaml.vb">
+      <DependentUpon>WebReader.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Short\WIFI.xaml.vb">
+      <DependentUpon>WIFI.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="Short\browser.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Short\Air.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Short\Blue.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Short\Cel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Short\Contact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Short\instapaper.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Short\Sms.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Short\WebReader.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Short\WIFI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1353614970_shipping.png" />
+    <Content Include="1353615908_bluetooth.png" />
+    <Content Include="1353617161_picons20.png" />
+    <Content Include="1353621046_air_signal.png" />
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icon\Airplane.png" />
+    <Content Include="Icon\appbar.back.rest.png" />
+    <Content Include="Icon\appbar.book.hardcover.open.png" />
+    <Content Include="Icon\appbar.check.rest.png" />
+    <Content Include="Icon\appbar.email.png" />
+    <Content Include="Icon\appbar.message.send.png" />
+    <Content Include="Icon\appbar.question.png" />
+    <Content Include="Icon\appbar.refresh.rest.png" />
+    <Content Include="Icon\appbar.stock.up.png" />
+    <Content Include="Icon\bluebookmark.png" />
+    <Content Include="Icon\Bluetooth.png" />
+    <Content Include="Icon\book.contact.png" />
+    <Content Include="Icon\btn_instapaper.png" />
+    <Content Include="Icon\Cellular.png" />
+    <Content Include="Icon\eadability.png" />
+    <Content Include="Icon\Ecology-01.png" />
+    <Content Include="Icon\Editor.png" />
+    <Content Include="Icon\instapaper.png" />
+    <Content Include="Icon\msg.png" />
+    <Content Include="Icon\readability-256.png" />
+    <Content Include="Icon\readability.png" />
+    <Content Include="Icon\Share-02.png" />
+    <Content Include="Icon\share.png" />
+    <Content Include="Icon\Student-Read-01.png" />
+    <Content Include="Icon\WiFi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

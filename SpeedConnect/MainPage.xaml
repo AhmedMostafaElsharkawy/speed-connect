@@ -1,0 +1,119 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="SpeedConnect.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    Background ="{StaticResource PhoneBackgroundBrush}"
+    
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="False" >
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" >
+            <TextBlock x:Name="ApplicationTitle" Text=" Speed Connect " FontSize="30" Foreground = "Gray"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="10,5,-10,-1028" Grid.Row="1">
+            <ListBox Margin="10,10,38,1084">
+                <Grid Width="400" >
+                    <StackPanel Margin="297,97,24,626"  Background ="{StaticResource PhoneAccentBrush}" />
+                    <Button BorderThickness="0" VerticalAlignment="Top" Tap="Cel_Click" HorizontalAlignment="Left" Height="98" Width="99" Margin="287,87,0,0">
+                        <Button.Background>
+                            <ImageBrush ImageSource="Icon/Cellular.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <StackPanel Margin="210,10,110,713"  Background ="{StaticResource PhoneAccentBrush}" />
+                    <Button BorderThickness="0"  VerticalAlignment="Top" Tap="Blue_Click" HorizontalAlignment="Right" Height="98" Width="101" Margin="0,0,99,0">
+
+                        <Button.Background >
+                            <ImageBrush ImageSource="Icon/Bluetooth.png" ></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <StackPanel Margin="210,98,110,624" Background ="{StaticResource PhoneAccentBrush}" />
+                    <Button BorderThickness="0" VerticalAlignment="Top" Tap="Air_Click" HorizontalAlignment="Left" Height="98" Width="101" Margin="200,89,0,0">
+                        <Button.Content>
+                            <TextBlock Foreground="White" FontSize="17" Margin="-70,130,0,0" TextWrapping="Wrap">Airplane</TextBlock>
+                        </Button.Content>
+                        <Button.Background>
+                            <ImageBrush ImageSource="Icon/Airplane.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <StackPanel Margin="295,11,25,713" Background ="{StaticResource PhoneAccentBrush}" />
+                    <Button  BorderThickness="0" VerticalAlignment="Top" Margin="0,1,15,0" Tap="WiFi_Click" HorizontalAlignment="Right" Height="97" Width="101">
+                        <Button.Content>
+                            <TextBlock Foreground="White" FontSize="17" Margin="-70,130,0,0" TextWrapping="Wrap">Wifi</TextBlock>
+                        </Button.Content>
+                        <Button.Background>
+                            <ImageBrush ImageSource="Icon/WiFi.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <StackPanel  Height="180" Width="180" Margin="0,11,220,609" Background ="{StaticResource PhoneAccentBrush}" ></StackPanel>
+                    <Button  BorderThickness="0" VerticalAlignment="Top" Margin="-2,13,0,0" Tap="btn_Write" HorizontalAlignment="Left" Height="97" Width="109">
+                    
+                        <Button.Background>
+                            <ImageBrush ImageSource="Icon/appbar.email.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button  BorderThickness="0" VerticalAlignment="Top" Margin="0,84,221,0" Tap="btn_Write"  HorizontalAlignment="Right" Height="101" Width="101" >
+                        <Button.Background>
+                            <ImageBrush ImageSource="Icon/msg.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <StackPanel Height="180" Width="180" Margin="4,210,216,410" Background ="{StaticResource PhoneAccentBrush}"  ></StackPanel>
+                    <Button BorderThickness="0" VerticalAlignment="Top" Margin="-5,200,0,0" Tap="btnContact" HorizontalAlignment="Left" Height="200" Width="200">
+                        <Button.Content>
+                            <TextBlock Foreground="White" FontSize="17" Margin="-70,130,0,0" TextWrapping="Wrap">Add Contact</TextBlock>
+                        </Button.Content>
+                        <Button.Background>
+                            <ImageBrush ImageSource="Icon/book.contact.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <StackPanel  Height="180" Width="180" Margin="0,406,220,214" Background ="{StaticResource PhoneAccentBrush}" ></StackPanel>
+                    <Button BorderThickness="0" VerticalAlignment="Top" Margin="-11,400,211,0" Tap="Readability_Click" HorizontalAlignment="Right" Height="200" Width="200">
+                        <Button.Content>
+                            <TextBlock Foreground="White" FontSize="17" Margin="-70,130,0,0" TextWrapping="Wrap">Readability</TextBlock>
+                        </Button.Content>
+                        <Button.Background>
+                            <ImageBrush ImageSource="Icon/readability-256.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <StackPanel  Height="180" Width="180" Margin="200,210,20,410" Background ="{StaticResource PhoneAccentBrush}" ></StackPanel>
+                    <Button BorderThickness="0" VerticalAlignment="Top" Margin="0,210,11,0" Tap="instapaper_Click" HorizontalAlignment="Right" Height="191" Width="200">
+                        <Button.Content>
+                            <TextBlock  Foreground="White" FontSize="17" Margin="-70,130,0,0" TextWrapping="Wrap">Instapaper</TextBlock>
+                        </Button.Content>
+                        <Button.Background >
+                            <ImageBrush  ImageSource="Icon/Student-Read-01.png" ></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                </Grid>
+
+            </ListBox>
+        </Grid>
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True"  BackgroundColor="Gray"   Mode="Minimized"  IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton 
+                IconUri="/Icon/Ecology-01.png" 
+                Text="About ideas Software" 
+                x:Name="btnAbout" 
+                Click="btnAbout_Click_1"/>
+
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>
